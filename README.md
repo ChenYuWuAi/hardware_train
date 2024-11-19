@@ -17,6 +17,7 @@ graph LR
     I[板载按键 硬件防抖]
     J[板载LED]
     K[板载蜂鸣器（三极管）]
+    N[RTC电池]
     L[跳线帽]
     M[IMU BMI088 I2C]
     A --> B
@@ -31,6 +32,7 @@ graph LR
     D --> K
     D --> L
     D --> M
+    D --> N
 ```
 ## 电源树
 ``` mermaid
@@ -41,6 +43,7 @@ graph LR
     F[LDO 3.3V]
     D[电源输出 5V@4A]
     E[电源输出 3.3V]
+    H[RTC电池]
     A --> B
     B --> C
     B --> F

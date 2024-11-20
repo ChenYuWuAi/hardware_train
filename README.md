@@ -20,6 +20,7 @@ graph LR
     N[RTC电池]
     L[跳线帽]
     M[IMU BMI088 I2C]
+    N[UART]
     A --> B
     A --> C
     A --> D
@@ -32,7 +33,7 @@ graph LR
     D --> K
     D --> L
     D --> M
-    D --> N
+    E --> N
 ```
 ## 电源树
 ``` mermaid
